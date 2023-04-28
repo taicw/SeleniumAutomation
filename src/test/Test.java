@@ -54,26 +54,28 @@ public class Test {
 		  Thread.sleep(1000);
 		  }
 		
-		//sign out
+		//Sign out
 		  driver.findElement(By.xpath("//button[contains(text(),'Sign out')]")).click();
 		  Thread.sleep(3000);
 
-		//sign in again but will not prompt for email and password
+		//Sign in again but will not prompt for email and password
 		  driver.findElement(By.className("btn-github")).click();
-
-		//using loop to delete record from 5-10
+		  Thread.sleep(5000);
+		
+		//Delete record from 5-10 in loop
 		  for(int i=0; i<6;i++) {
 		  driver.findElement(By.xpath("//body/ng-view[1]/div[1]/div[3]/div[1]/ul[1]/li[5]/div[1]/div[2]/button[1]")).click();
 		  Thread.sleep(1000);
 		  }
+		  
+		//Sign out after completion
 		  Thread.sleep(2000);
-		 
-		//sign out upon completion
 		  driver.findElement(By.xpath("//button[contains(text(),'Sign out')]")).click();
 		  Thread.sleep(2000);
 		  driver.close();
 		  
-		  System.out.println("Test done"); 
+		  System.out.println("Test done");
+		 
 	}
 
 }
