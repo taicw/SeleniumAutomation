@@ -37,7 +37,7 @@ public class TestProject {
 		  driver.findElement(By.id("login_field")).sendKeys("seleniumabc12345@gmail.com");
 		  Thread.sleep(2000);
 		  
-		//login id - change it to your own password
+		//login password - change it to your own password
 		  driver.findElement(By.id("password")).sendKeys("seleniumabc12345");
 		  Thread.sleep(2000);
 		  
