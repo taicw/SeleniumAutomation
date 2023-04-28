@@ -11,7 +11,7 @@ public class TestProject {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		//amend the path based on own configuration
+		//amend the path based on own configuration + "\\chromedrvier.exe" at the end of the path
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\eclipse-workspace\\Selenium\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
@@ -23,7 +23,7 @@ public class TestProject {
 		//maximize window
 		  driver.manage().window().maximize(); Thread.sleep(3000);
 		
-		//login with github
+		//login with GITHUB
 		  driver.findElement(By.className("btn-github")).click();
 		  Thread.sleep(5000);
 		  
@@ -33,12 +33,12 @@ public class TestProject {
 			  driver.switchTo().window(handle);
 		  }
 		  
-		 //login id - you may change it to your own email address
-		  driver.findElement(By.id("login_field")).sendKeys("usernamenotallow001@gmail.com");
+		 //login id - change it to your own email address
+		  driver.findElement(By.id("login_field")).sendKeys("seleniumabc12345@gmail.com");
 		  Thread.sleep(2000);
 		  
-		//login id - you may change it to your own password
-		  driver.findElement(By.id("password")).sendKeys("Testeracc123");
+		//login id - change it to your own password
+		  driver.findElement(By.id("password")).sendKeys("seleniumabc12345");
 		  Thread.sleep(2000);
 		  
 		//click login
