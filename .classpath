@@ -76,7 +76,6 @@
 	<classpathentry kind="lib" path="lib/selenium-ie-driver-4.9.0.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-ie-driver-4.9.0-sources.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-java-4.9.0.jar"/>
-	<classpathentry kind="lib" path="lib/selenium-java-4.9.0.zip"/>
 	<classpathentry kind="lib" path="lib/selenium-java-4.9.0-sources.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-json-4.9.0.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-json-4.9.0-sources.jar"/>
