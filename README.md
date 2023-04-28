@@ -1,5 +1,7 @@
 # SeleniumAutomation
 
+This is a Selenium project in JAVA using Eclipse
+
 Tutorial Video - https://www.screencast.com/t/oTwUX1X32
 
 #1
