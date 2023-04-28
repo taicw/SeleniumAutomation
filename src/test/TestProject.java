@@ -11,6 +11,7 @@ public class TestProject {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
+		//driver path
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
