@@ -10,6 +10,8 @@ public class Test {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		
+		//amend the path based on own configuration
 		System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
