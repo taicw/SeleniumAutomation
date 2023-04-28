@@ -11,8 +11,7 @@ public class TestProject {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		//amend the path based on own configuration + "\\chromedrvier.exe" at the end of the path
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\eclipse-workspace\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 
