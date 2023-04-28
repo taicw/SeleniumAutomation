@@ -12,7 +12,7 @@ public class TestProject {
 		// TODO Auto-generated method stub
 		
 		//amend the path based on own configuration
-		System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\eclipse-workspace\\Selenium\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 
